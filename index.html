@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" — AI Engineer, Software Developer and Africa Agricultural Researcher focused on practical AI, digital agriculture, drones, geospatial intelligence and responsible technology development.">
+  <title> — AI Engineer • Africa Agricultural Researcher</title>
+  <link rel="stylesheet" href="assets/style.css">
+<style>
+
+/* Diamond + gold star rain — falling top to bottom */
+.diamond-gold-star-rain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999;
+}
+.falling-diamond-star {
+  position: absolute;
+  top: -50px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  animation: diamondGoldFall linear infinite;
+}
+.falling-diamond-star.diamond {
+  background: linear-gradient(135deg, #ffffff 0%, #e8faff 45%, #8edcff 72%, #ffffff 100%);
+  box-shadow: 0 0 8px rgba(255,255,255,.95), 0 0 18px rgba(100,210,255,.75);
+}
+.falling-diamond-star.gold {
+  background: linear-gradient(135deg, #fff7a6 0%, #ffd700 42%, #f4a900 72%, #fff1a3 100%);
+  box-shadow: 0 0 8px rgba(255,215,0,.95), 0 0 18px rgba(255,174,0,.7);
+}
+.falling-diamond-star::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: rgba(255,255,255,.75);
+}
+@keyframes diamondGoldFall {
+  0% {
+    transform: translate3d(0, -60px, 0) rotate(45deg) scale(.65);
+    opacity: 0;
+  }
+  8% { opacity: .95; }
+  100% {
+    transform: translate3d(var(--drift), 110vh, 0) rotate(405deg) scale(1);
+    opacity: .12;
+  }
+}
+
+</style>
+<style>
+
+/* Light-blue background for the About Me section */
+.about-me,
+.about,
+#about-me,
+#about,
+section.about-me,
+section.about,
+section#about-me,
+section#about {
+  background: #bfe8ff !important;
+  background-color: #bfe8ff !important;
+}
+
+</style>
+<style>
+
+/* Deep-black About Me information */
+.about-me,
+.about,
+#about-me,
+#about,
+section.about-me,
+section.about,
+section#about-me,
+section#about {
+  color: #000000 !important;
+}
+.about-me *,
+.about *,
+#about-me *,
+#about *,
+section.about-me *,
+section.about *,
+section#about-me *,
+section#about * {
+  color: #000000 !important;
+  text-shadow: none !important;
+}
+
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home"><span class="brand-mark">ST</span><span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#work">Projects</a>
+        <a href="#research">Research</a><a href="#gallery">Gallery</a><a href="#contact" class="nav-cta">Let's Connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Technology • AI • Agriculture • Africa</p>
+          <h1>Engineering intelligence for <em>Africa's next chapter.</em></h1>
+          <p class="hero-lead">
+            I’m <strong></strong>, an AI Engineer, Software Developer and Africa Agricultural Researcher
+            working at the intersection of software, artificial intelligence, agricultural intelligence, drones,
+            geospatial information and digital transformation. My focus is not technology for technology’s sake;
+            it is the disciplined conversion of difficult real-world problems into systems that can collect evidence,
+            organize information, reveal patterns and support better decisions.
+          </p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#work">Explore my work <span>↗</span></a><a class="btn btn-ghost" href="#contact">Start a conversation</a></div>
+          <div class="hero-stats">
+            <div><strong>AI</strong><span>Applied intelligence & decision support</span></div>
+            <div><strong>Web</strong><span>Digital systems & data workflows</span></div>
+            <div><strong>AgriTech</strong><span>Field-oriented agricultural innovation</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          </div></div></div></div>
+          <div class="portrait-frame"><img src="assets/images/portrait-pink.jpg" alt="Portrait of " class="hero-photo"></div>
+          <div class="floating-card card-one"><span class="dot"></span><div><strong>AI + Agriculture</strong><small>Turning field information into usable intelligence</small></div></div>
+          <div class="floating-card card-two"><span class="mini-icon">⌁</span><div><strong>Research-led</strong><small>Observe → measure → model → validate → improve</small></div></div>
+        </div>
+      </div>
+      <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div>
+    </section>
+
+    <section class="marquee" aria-label="Areas of focus"><div class="marquee-track">
+      <span>SOFTWARE DEVELOPMENT</span><b>✦</b><span>ARTIFICIAL INTELLIGENCE</span><b>✦</b><span>AGRICULTURAL RESEARCH</span><b>✦</b>
+      <span>DRONES & GEOSPATIAL DATA</span><b>✦</b><span>DIGITAL AGRICULTURE</span><b>✦</b><span>AFRICAN INNOVATION</span><b>✦</b>
+      <span>SOFTWARE DEVELOPMENT</span><b>✦</b><span>ARTIFICIAL INTELLIGENCE</span><b>✦</b><span>AGRICULTURAL RESEARCH</span><b>✦</b>
+    </div></section>
+
+    <section id="about" class="section about">
+      <div class="container two-col">
+        <div><p class="eyebrow">01 / About me</p><h2>Building technology means understanding the human and field problem first.</h2></div>
+        <div class="about-copy">
+          <div class="about-detailed">
+            <div class="about-watermark" aria-hidden="true"><img src="assets/images/portrait-pink.jpg" alt=""></div>
+            <p><strong>I am </strong>, an AI Engineer, Software Developer and Africa Agricultural Researcher with a strong interest in the practical relationship between technology, evidence and development. I work across software engineering, artificial intelligence, agricultural research, drone-enabled data collection, geospatial information and digital systems because many of Africa’s most important problems do not fit neatly inside one technical discipline.</p>
+            <p>My philosophy is rooted in problem definition before implementation. A promising idea becomes valuable only when it addresses a clearly understood need, when the information required to operate it can be collected reliably, and when the resulting output can be understood and acted upon by the people who need it. I therefore think about technology as a complete chain: <strong>problem → data → workflow → intelligence → decision → measurable outcome</strong>.</p>
+            <p>A central area of my work is <strong>agricultural intelligence</strong>. Farming is inherently spatial, seasonal and information-intensive. A field can contain variation in crop condition, soil context, moisture, plant density, pest or disease pressure and management history. I am interested in how imagery, computer vision, remote sensing, mapping, structured field records and analytics can transform scattered observations into organized information that supports monitoring, research and operational decisions.</p>
+            <p>Through <strong>Agri-Technology Africa</strong>, I am developing a technology direction that combines agricultural drone services, AI-assisted analysis and a digital agriculture platform. The long-term concept is to build an information layer around farm operations: capture observations, preserve useful records, analyze imagery and field data, generate structured reports, and make information easier to revisit over time. This creates a foundation for more consistent agricultural services rather than isolated one-time observations.</p>
+            <p>I also place strong emphasis on <strong>responsible AI</strong>. Agricultural AI should not be presented as an unquestionable authority. Image-based systems can encounter changing lighting, crop varieties, field conditions, incomplete datasets and situations outside their training or validation environment. For that reason, AI-assisted findings should be treated as decision-support indicators until they have been appropriately tested, compared with field observations and reviewed by relevant experts. My preferred development cycle is evidence-driven: build, test, measure, document limitations, learn from failure and improve.</p>
+            <p>My broader ambition is to contribute to an African technology ecosystem in which locally relevant data is treated as strategic infrastructure. Better structured agricultural information can strengthen farm management, research, service delivery, planning and future innovation. I want to build systems that are technically credible while remaining understandable, practical and adaptable to the realities of the people and organizations expected to use them.</p>
+            <p>Over time, I hope to deepen this work through stronger field validation, partnerships, research collaboration and scalable digital infrastructure across Ghana and wider Africa. The objective is not simply to demonstrate that technology can be built; it is to demonstrate that carefully designed technology can become useful, trusted and measurable in the environments where it matters most.</p>
+            <div class="about-focus"><span>Software Engineering</span><span>AI & Computer Vision</span><span>Agricultural Intelligence</span><span>Drones</span><span>Geospatial Data</span><span>Digital Transformation</span><span>Research & Validation</span><span>Responsible AI</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise" class="section dark">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow light">02 / Expertise</p><h2>Technical capability connected to real-world use.</h2></div><p>I approach each capability as part of a larger system: understand the requirement, design the workflow, build the technology, test the output and improve it through evidence.</p></div>
+        <div class="expertise-grid">
+          <article class="expertise-card"><span class="number">01</span><div class="icon">⌘</div><h3>Software Development</h3><p>I design and develop responsive digital experiences, dashboards, APIs and data workflows with attention to usability, maintainability and the complete journey from user input to meaningful output. The goal is software that does more than look functional: it should make complex work easier to organize, execute and understand.</p><div class="tags"><span>Web Apps</span><span>APIs</span><span>UI/UX</span><span>Data Systems</span></div></article>
+          <article class="expertise-card featured"><span class="number">02</span><div class="icon">AI</div><h3>Artificial Intelligence</h3><p>My AI interests center on applied intelligence: computer vision, image analysis, pattern recognition, automation and decision-support workflows. I focus on the responsible path from a model or analytical idea to a useful product, including validation, uncertainty and clear communication of what an AI output can and cannot establish.</p><div class="tags"><span>Computer Vision</span><span>ML</span><span>Automation</span><span>Analytics</span></div></article>
+          <article class="expertise-card"><span class="number">03</span><div class="icon">◫</div><h3>Agricultural Research</h3><p>I explore agricultural problems through a technology and evidence lens: what must be observed, what data should be captured, how variables can be organized, which indicators may be useful, and how findings can be validated against field reality. The objective is stronger information for better agricultural decisions.</p><div class="tags"><span>Field Data</span><span>Crop Health</span><span>Research</span><span>AgriTech</span></div></article>
+          <article class="expertise-card"><span class="number">04</span><div class="icon">⌁</div><h3>Drones & Geospatial</h3><p>I am interested in drone-enabled surveying, mapping, imagery collection and geospatial agricultural intelligence. Spatial information can reveal patterns that are difficult to capture through isolated observations, creating opportunities for repeatable monitoring, field documentation and richer agricultural datasets.</p><div class="tags"><span>Mapping</span><span>Remote Sensing</span><span>Farm Data</span><span>GIS</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">03 / Selected work</p><h2>From ambitious ideas to systems that can be tested, measured and improved.</h2></div><p>The projects below represent development and research directions. Where a capability is still being validated, it is described as a direction rather than presented as a proven result.</p></div>
+      <div class="project-list">
+        <article class="project"><div class="project-image"><img src="assets/images/workspace.jpg" alt=" working at a computer"><span class="project-label">01 / Digital Agriculture</span></div><div class="project-content"><p class="project-kicker">Agri-Technology Africa</p><h3>AI-assisted agricultural drone & digital agriculture platform</h3><p>The platform direction is designed around a simple but important question: how can agricultural observations become reliable digital evidence that remains useful after a field visit is over? The concept combines drone services, farm imagery, structured records, AI-assisted analysis and reporting into a connected workflow.</p><ul><li>Farm surveying, mapping and repeatable field documentation</li><li>AI-assisted crop and image analysis presented as decision support</li><li>Structured digital farm records and traceable datasets</li><li>Reports that turn observations and analytical outputs into readable information</li><li>A foundation for longitudinal monitoring rather than isolated inspections</li></ul><a href="#contact" class="text-link">Discuss the project <span>→</span></a></div></article>
+        <article class="project reverse"><div class="project-image"><img src="assets/images/portrait-african-print.jpg" alt=" in an African print shirt"><span class="project-label">02 / AI Research</span></div><div class="project-content"><p class="project-kicker">Intelligent Crop Monitoring</p><h3>Turning farm imagery into structured agricultural intelligence</h3><p>This research direction explores how photographs, drone imagery and geospatial information might support crop-health assessment and earlier identification of visible abnormalities. The emphasis is on creating a repeatable analytical workflow rather than treating a single image as a complete diagnosis.</p><ul><li>Image-based crop condition and visible symptom assessment</li><li>Field-level visual indicators that can support human review</li><li>Geospatial context for understanding where observations occur</li><li>Structured outputs suitable for reports and future datasets</li><li>Controlled field observation and expert review before stronger claims</li></ul><a href="#research" class="text-link">View research direction <span>→</span></a></div></article>
+        <article class="project"><div class="project-image"><img src="assets/images/portrait-blue.jpg" alt=" in a blue shirt"><span class="project-label">03 / Digital Infrastructure</span></div><div class="project-content"><p class="project-kicker">Agricultural Data Infrastructure</p><h3>Making agricultural information measurable, searchable and reusable</h3><p>Agricultural innovation becomes harder to scale when information is fragmented across notebooks, photographs, spreadsheets and disconnected conversations. This direction focuses on creating structured digital records that preserve context, support analysis and make historical information more useful for future decisions.</p><ul><li>Digital farm profiles and structured field records</li><li>Consistent collection of observations and supporting metadata</li><li>Analytics, visualization and professional reporting workflows</li><li>Data structures designed for future integration and scale</li><li>Clear separation between observed facts, analytical indicators and conclusions</li></ul><a href="#contact" class="text-link">Explore collaboration <span>→</span></a></div></article>
+      </div>
+    </div></section>
+
+    <section id="research" class="section research"><div class="container"><div class="research-grid">
+      <div class="research-copy"><p class="eyebrow">04 / Research direction</p><h2>African agriculture deserves technology designed around its realities, constraints and opportunities.</h2>
+        <p>My research direction is concerned with the gap between what agricultural technology can theoretically do and what can be responsibly delivered in the field. African farming environments are diverse; data availability, connectivity, farm size, crop systems, operating costs and local expertise can vary substantially. Technology therefore has to be adaptable, evidence-led and designed with the operational environment in mind.</p>
+        <p>Rather than starting with a model and searching for a problem, I prefer to start with an observable agricultural need and work backward toward the minimum information required to address it. This makes validation central to the process and helps distinguish a useful indicator from an unsupported claim.</p>
+        <div class="research-principles">
+          <div><span>01</span><strong>Observe</strong><small>Define the field problem and document what can actually be seen or measured.</small></div>
+          <div><span>02</span><strong>Measure</strong><small>Collect consistent, structured information with context, location and time.</small></div>
+          <div><span>03</span><strong>Model</strong><small>Use AI and analytics where they add evidence, efficiency or useful pattern recognition.</small></div>
+          <div><span>04</span><strong>Validate</strong><small>Compare outputs with controlled observations and appropriate expert review.</small></div>
+          <div><span>05</span><strong>Communicate</strong><small>Explain confidence, limitations and practical meaning rather than hiding uncertainty.</small></div>
+          <div><span>06</span><strong>Improve</strong><small>Use field feedback and new evidence to refine the system before broader deployment.</small></div>
+        </div>
+      </div>
+      <div class="research-panel"><div class="panel-top"><span>RESEARCH / 2026+</span><span>GHANA → WEST AFRICA</span></div><div class="radar"><div class="radar-ring r1"></div><div class="radar-ring r2"></div><div class="radar-ring r3"></div><div class="radar-line l1"></div><div class="radar-line l2"></div><span class="radar-dot d1"></span><span class="radar-dot d2"></span><span class="radar-dot d3"></span><div class="radar-center">AI<br><small>FIELD<br>INTELLIGENCE</small></div></div><div class="panel-bottom"><span>Computer Vision</span><span>Geospatial</span><span>Crop Data</span><span>Decision Support</span></div></div>
+    </div></div></section>
+
+    <section id="gallery" class="section gallery"><div class="container"><div class="section-heading"><div><p class="eyebrow">05 / Gallery</p><h2>The person behind the work.</h2></div><p>Professional, research and cultural moments that add context to a technology journey built around curiosity, discipline and African innovation.</p></div>
+      <div class="gallery-grid"><figure class="gallery-item tall"><img src="assets/images/portrait-pink.jpg" alt=" portrait"></figure><figure class="gallery-item"><img src="assets/images/workspace.jpg" alt=" at his workstation"></figure><figure class="gallery-item"><img src="assets/images/portrait-blue.jpg" alt=" portrait in blue"></figure><figure class="gallery-item wide"><img src="assets/images/portrait-traditional.jpg" alt=" in traditional attire outdoors"></figure><figure class="gallery-item"><img src="assets/images/portrait-african-print.jpg" alt=" in African print"></figure></div>
+    </div></section>
+
+    <section class="section values dark"><div class="container"><p class="eyebrow light">06 / Working philosophy</p><div class="values-grid">
+      <div><span>01</span><h3>Build with purpose.</h3><p>A sophisticated interface is not the same thing as a useful system. I begin with the underlying problem, the people affected by it, the information they need and the decision the technology is expected to improve. Every technical choice should serve that purpose.</p></div>
+      <div><span>02</span><h3>Evidence before confidence.</h3><p>Especially in AI and agriculture, impressive outputs can be misleading when they are not properly validated. I believe in distinguishing observations from predictions, predictions from interpretations, and prototypes from proven field performance. Measurement and expert review should shape trust.</p></div>
+      <div><span>03</span><h3>Think Africa-first, build for scale.</h3><p>Technology should respect local operating realities while remaining ambitious. Solutions should consider connectivity, affordability, skills, infrastructure, data quality and field workflows without assuming that African users must accept lower standards of quality or innovation.</p></div>
+    </div></div></section>
+
+    <section id="contact" class="section contact"><div class="container contact-box"><div><p class="eyebrow">07 / Contact</p><h2>Have a difficult problem, an agricultural opportunity or a technology idea worth investigating?</h2><p>I welcome conversations around software engineering, AI, agricultural technology, research, digital infrastructure and partnerships. The strongest collaborations begin with a clear problem, honest assumptions and a willingness to test what works.</p></div><div class="contact-actions">
+      <a class="contact-line" href="mailto:tetsolos@gmail.com"><span>Email</span><strong>tetsolos@gmail.com</strong> ↗</a>
+      <a class="contact-line" href="tel:+233245606400"><span>Phone / WhatsApp</span><strong>+233 245 606 400</strong> ↗</a>
+    </div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> </span><span>AI Engineer • Software Developer • Africa Agricultural Researcher</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="assets/script.js"></script>
+  <div class="site-photo-watermark" aria-hidden="true"><img src="assets/images/portrait-pink.jpg" alt=""></div>
+  <section class="solomon-rainbow-cycle" aria-label=" visual identity"><div><div class="solomon-rainbow-name">Solomon<br>Tetteh</div><div class="solomon-rainbow-sub">AI ENGINEER • AFRICA</div></div></section>
+
+<script>
+(function () {
+  function createStarRain() {
+    if (!document.body || document.querySelector('.diamond-gold-star-rain')) return;
+
+    const layer = document.createElement('div');
+    layer.className = 'diamond-gold-star-rain';
+
+    const count = Math.min(42, Math.max(22, Math.floor(window.innerWidth / 30)));
+
+    for (let i = 0; i < count; i++) {
+      const star = document.createElement('span');
+      star.className = 'falling-diamond-star ' + (Math.random() < 0.5 ? 'diamond' : 'gold');
+
+      const size = 7 + Math.random() * 10;
+      star.style.width = size + 'px';
+      star.style.height = size + 'px';
+      star.style.left = (Math.random() * 100) + '%';
+      star.style.setProperty('--drift', ((Math.random() - 0.5) * 180) + 'px');
+      star.style.animationDuration = (4.5 + Math.random() * 6) + 's';
+      star.style.animationDelay = (-Math.random() * 9) + 's';
+
+      layer.appendChild(star);
+    }
+
+    document.body.appendChild(layer);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', createStarRain);
+  } else {
+    createStarRain();
+  }
+})();
+</script>
+
+</body>
+</html>
